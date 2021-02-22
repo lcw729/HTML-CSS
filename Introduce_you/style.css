@@ -1,0 +1,38 @@
+
+body {
+    background-color: #e6f5fd;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-left: 40px;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.labels {
+    margin-bottom: 8px;
+}
+
+.buttons, p {
+    margin-left: 40px;
+}
+footer {
+    margin : 50px;
+    clear: both;
+    text-align: center;
+}
+p {
+    padding: 30px;
+    margin-right: 40pxs;
+    border: #00B3F7 5px solid;
+}

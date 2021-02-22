@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <title>Introduce you</title>
+</head>
+<body>
+    <header>
+        <h1>Let's be friends</h1>
+        <h2>Introduce you</h2>
+    </header>
+    <form method="POST">
+        <ul>
+            <li>First Name : <input type="text" name = "firstname" required></li>
+            <li>Last Name : <input type="text" name = "lastname" required></li>
+            <li>
+                <div class="labels">
+                    <label for="gender">gender</label>
+                </div>
+                <input type="radio" name="gender" value="Female"> Female <br>
+                <input type="radio" name="gender" value="Male"> Male <br>
+            </li>
+            <li>Email : <input type="email" name="email"></li>
+            <!--add age 1~100 JS-->
+            <li><label for="age">Age : </label>
+                <select name="age">
+                    <option value="20">20</option>
+                </select>
+            </li>
+            <li>Birthday : <input type="date" name="birthday"></li>
+            <li>Job : <input type="text" name="job" required></li>
+            <li>Interests : <input type="text" name="Interests" required></li>
+            <li>Hobby : <input type="text" name="hobby"></li>
+            <li>
+                <div class="labels">
+                    <label>Message to me</label>
+                </div>
+                <Textarea rows="20" cols="50" name="message"></Textarea>
+            </li>
+        </ul>
+        <div class="buttons">
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+    <footer>
+        <div>
+            Made by chaewon
+        </div>
+    </footer>
+</body>
+</html>
+
